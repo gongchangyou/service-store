@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 2022/1/13 1:44 下午
  */
 @Component
-@DubboService(version = "1.0.0", group = "order-demo") //group是小的分类
+@DubboService(version = "1.0.0", group = "store-demo") //group是小的分类
 public class StoreServiceImpl implements StoreService {
     @Autowired
     private ApplicationContext applicationContext;
